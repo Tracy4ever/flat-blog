@@ -1,0 +1,295 @@
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.hr {
+    margin: 20px auto;
+    height: 2px;
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.sub-heading {
+    font-size: 18px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+nav {
+    background: transparent;
+    min-height: 50px;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    height: 50px;
+}
+
+nav ul li,
+nav .logo {
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+nav .logo {
+    float: left;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    /*font-size: 20px;*/
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* margin:10px ;  */
+    /*增大a的大小*/
+    line-height: 50px;
+    display: inline-block;
+    height: inherit;
+    color: #fff;
+}
+
+.banner {
+    /*width: 100%;*/
+    min-height: 500px;
+    background: transparent;
+    /* float: left; */
+}
+
+.banner .inner {
+    max-width: 130px;
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner .inner h1 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.banner .inner .sub-heading {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+button {
+    border: none;
+    background: #333;
+    margin-top: 30px;
+    color: #fff;
+    padding: 12px 36px;
+}
+
+.banner button {
+    padding: 16px 40px；
+}
+
+.banner .inner #more {
+    margin-top: 130px;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content .green-section {
+    background: #31965f;
+    height: 200px;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.green-section .wrapper {
+    max-width: 1080px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.green-section .wrapper .hr {
+    width: 25%;
+    background-color: #fff;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.content .gray-section {
+    background: #
+}
+
+.icon-panel {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.icon-panel .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    margin: 20px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.article-preview {
+    background: #635f5f;
+    color: #fff;
+}
+
+.article-preview .img-section {
+    width: 45%;
+}
+
+.img-section img {
+    width: 100%;
+}
+
+.article-preview .text-section {
+    width: 55%;
+}
+
+.article-preview>div {
+    float: left;
+}
+
+.article-preview:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.text-section {
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.text-section h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.text-section .sub-heading {
+    font-size: 18px;
+}
+
+.text-section p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    max-width: 90%;
+}
+
+.article-preview {
+    font-size: 0;
+}
+
+.article-preview:nth-child(odd) {
+    background: #908b8b;
+}
+
+.pruple-section {
+    background: #58357d;
+    color: #fff;
+
+    padding: 100px 200px;
+}
+
+.heading-wrapper {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.heading-wrapper .hr {
+    background: #290b48;
+    width: 10%;
+}
+
+.card-group {
+    margin-top: 50px;
+}
+
+
+.card {
+    width: 50%;
+    float: left;
+    padding: 50px;
+    min-height: 300px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card:first-child {
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.card:nth-child(2) {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.card:nth-child(3) {
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.card:nth-child(4) {
+    background: rgba(0, 0, 0, 0.16);
+}
+
+.card:nth-child(5) {
+    background: rgba(0, 0, 0, 0.20);
+}
+
+.card:nth-child(6) {
+    background: rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    min-height: 200px;
+    background: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+ul.share-group {
+    list-style: none;
+    display: block;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    /* margin: 0 20px; */
+}
+
+.copy {
+    margin-top: 60px;
+}
+
+.main-wrapper {
+    background: #444 url(../source/h5c3/img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
